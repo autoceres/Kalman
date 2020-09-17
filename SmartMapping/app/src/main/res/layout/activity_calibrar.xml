@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="scorpsystems.nathan.com.smartmapping.CalibrarActivity">
+
+    <TextView
+        android:id="@+id/tv_VarAcelZ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="230dp"
+        android:text="7.7777777777"
+        android:textColor="@android:color/holo_green_dark" />
+
+    <TextView
+        android:id="@+id/tv_VarAcelY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="190dp"
+        android:text="7.7777777777"
+        android:textColor="@android:color/holo_green_dark" />
+
+    <TextView
+        android:id="@+id/tv_VarAcelX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="150dp"
+        android:text="7.7777777777"
+        android:textColor="@android:color/holo_green_dark" />
+
+    <TextView
+        android:id="@+id/tv_VarGPSD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="110dp"
+        android:text="7.7777777777"
+        android:textColor="@android:color/holo_green_dark" />
+
+    <TextView
+        android:id="@+id/tv_VarGPSE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="30dp"
+        android:text="7.7777777777"
+        android:textColor="@android:color/holo_green_dark" />
+
+    <TextView
+        android:id="@+id/tv_LeituraAcelZ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="230dp"
+        android:text="7.7777777777" />
+
+    <TextView
+        android:id="@+id/tv_LeituraAcelX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="150dp"
+        android:text="7.7777777777" />
+
+    <TextView
+        android:id="@+id/tv_LeituraAcelY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="190dp"
+        android:text="7.7777777777" />
+
+    <TextView
+        android:id="@+id/tv_LeituraGPSD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="110dp"
+        android:text="7.7777777777" />
+
+    <TextView
+        android:id="@+id/tv_LeituraGPSE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="30dp"
+        android:text="7.7777777777" />
+
+    <TextView
+        android:id="@+id/tv_LeituraGPSN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="70dp"
+        android:text="7.7777777777" />
+
+    <TextView
+        android:id="@+id/tv_VarGPSN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="70dp"
+        android:text="7.7777777777"
+        android:textColor="@android:color/holo_green_dark" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="230dp"
+        android:text="AcelZ :" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/botao_calibrar"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="-18dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_marginTop="400dp"
+        android:background="@drawable/botao_sair" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:text="GPS E :" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="70dp"
+        android:text="GPS N :" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="110dp"
+        android:text="GPS D :" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="150dp"
+        android:text="AcelX :" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="190dp"
+        android:text="AcelY :" />
+
+</FrameLayout>

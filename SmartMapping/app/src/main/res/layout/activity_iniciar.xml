@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="scorpsystems.nathan.com.smartmapping.IniciarActivity">
+
+    <TextView
+        android:id="@+id/tv_ValorLido"
+        android:layout_width="186dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="400dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="400dp"
+        android:text="Valor Lido:" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="350dp"
+        android:text="Longitude Atual:" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="300dp"
+        android:text="Latitude Atual:" />
+
+    <TextView
+        android:id="@+id/tv_LatitudeAtual"
+        android:layout_width="188dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="300dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/tv_LongitudeAtual"
+        android:layout_width="186dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="350dp"
+        android:text="TextView" />
+
+    <ImageButton
+        android:id="@+id/imageButton_Coletar"
+        android:layout_width="wrap_content"
+        android:layout_height="96dp"
+        android:layout_marginTop="450dp"
+        android:background="@drawable/botao_coletar" />
+
+    <fragment
+        android:id="@+id/mapFrag"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="186dp"
+        android:layout_marginTop="55dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton_Finalizar"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:layout_marginLeft="200dp"
+        android:background="@drawable/botao_finalizar" />
+
+    <ImageButton
+        android:id="@+id/imageButton_Iniciar"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="200dp"
+        android:background="@drawable/botao_iniciar_branco" />
+
+    <ImageButton
+        android:id="@+id/imageButton_Finalizar2"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:layout_marginLeft="200dp"
+        android:background="@drawable/botao_finalizar" />
+
+</FrameLayout>
